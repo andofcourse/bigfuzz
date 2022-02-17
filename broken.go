@@ -1,7 +1,7 @@
 package broken
 
 func Broken(str string, bytes []byte, i int, i8 int8, i16 int16, r rune, i64 int64, ui uint, by byte, ui16 uint16, ui32 uint32, ui64 uint64, f32 float32, f64 float64, b bool) bool {
-	if len(str) > 3 &&	str[0] == 'F' && str[1] == 'U' && str[2] == 'Z' && str[3] == 'Z' {
+	if len(str) >= 3 &&	str[0] == 'F' && str[1] == 'U' && str[2] == 'Z' && str[3] == 'Z' {
 		return true
 	}
 
